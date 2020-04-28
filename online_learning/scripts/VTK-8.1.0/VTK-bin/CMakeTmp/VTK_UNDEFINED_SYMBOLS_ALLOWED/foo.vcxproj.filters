@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\dhane\Desktop\MS ECE\Spring 2018\Statistical Techniques in Robotics\Labs\Lab2\Online_Learning\scripts\VTK-8.1.0\VTK-bin\CMakeTmp\VTK_UNDEFINED_SYMBOLS_ALLOWED\foo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\dhane\Desktop\MS ECE\Spring 2018\Statistical Techniques in Robotics\Labs\Lab2\Online_Learning\scripts\VTK-8.1.0\VTK-bin\CMakeTmp\VTK_UNDEFINED_SYMBOLS_ALLOWED\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{8AF64595-06D6-348C-AA7C-671E11B8E6E2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

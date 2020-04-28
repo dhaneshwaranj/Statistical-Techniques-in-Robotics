@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\dhane\Desktop\MS ECE\Spring 2018\Statistical Techniques in Robotics\Labs\Lab2\Online_Learning\scripts\VTK-8.1.0\VTK-bin\CMakeTmp\VTK_UNDEFINED_SYMBOLS_ALLOWED\CMakeFiles\5724d8ee849d7dc01eb3c56bcef8df05\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{1F6BE693-CBCD-35E2-91FB-2BECB129A0E7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

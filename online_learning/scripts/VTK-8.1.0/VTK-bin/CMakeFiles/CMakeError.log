@@ -1,0 +1,258 @@
+Performing Test VTK_UNDEFINED_SYMBOLS_ALLOWED failed with the following output:
+
+Performing C++ SOURCE FILE Test Support for 64 bit file systems failed with the following output:
+Change Dir: C:/Users/dhane/Desktop/MS ECE/Spring 2018/Statistical Techniques in Robotics/Labs/Lab2/Online_Learning/scripts/VTK-8.1.0/VTK-bin/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_4e20b.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.5.180.51428 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 11-03-2018 13:36:02.
+Project "C:\Users\dhane\Desktop\MS ECE\Spring 2018\Statistical Techniques in Robotics\Labs\Lab2\Online_Learning\scripts\VTK-8.1.0\VTK-bin\CMakeFiles\CMakeTmp\cmTC_4e20b.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_4e20b.dir\Debug\".
+  Creating directory "C:\Users\dhane\Desktop\MS ECE\Spring 2018\Statistical Techniques in Robotics\Labs\Lab2\Online_Learning\scripts\VTK-8.1.0\VTK-bin\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_4e20b.dir\Debug\cmTC_4e20b.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_4e20b.dir\Debug\cmTC_4e20b.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D CMAKE_REQUIRE_LARGE_FILE_SUPPORT /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_4e20b.dir\Debug\\" /Fd"cmTC_4e20b.dir\Debug\vc141.pdb" /Gd /TP /errorReport:queue "C:\Users\dhane\Desktop\MS ECE\Spring 2018\Statistical Techniques in Robotics\Labs\Lab2\Online_Learning\scripts\VTK-8.1.0\VTK-bin\CMakeFiles\CMakeTmp\src.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.12.25831 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D CMAKE_REQUIRE_LARGE_FILE_SUPPORT /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_4e20b.dir\Debug\\" /Fd"cmTC_4e20b.dir\Debug\vc141.pdb" /Gd /TP /errorReport:queue "C:\Users\dhane\Desktop\MS ECE\Spring 2018\Statistical Techniques in Robotics\Labs\Lab2\Online_Learning\scripts\VTK-8.1.0\VTK-bin\CMakeFiles\CMakeTmp\src.cxx"
+  src.cxx
+  
+C:\Users\dhane\Desktop\MS ECE\Spring 2018\Statistical Techniques in Robotics\Labs\Lab2\Online_Learning\scripts\VTK-8.1.0\VTK-bin\CMakeFiles\CMakeTmp\src.cxx(13): warning C4293: '<<': shift count negative or too big, undefined behavior [C:\Users\dhane\Desktop\MS ECE\Spring 2018\Statistical Techniques in Robotics\Labs\Lab2\Online_Learning\scripts\VTK-8.1.0\VTK-bin\CMakeFiles\CMakeTmp\cmTC_4e20b.vcxproj]
+C:\Users\dhane\Desktop\MS ECE\Spring 2018\Statistical Techniques in Robotics\Labs\Lab2\Online_Learning\scripts\VTK-8.1.0\VTK-bin\CMakeFiles\CMakeTmp\src.cxx(19): error C3861: 'S_ISREG': identifier not found [C:\Users\dhane\Desktop\MS ECE\Spring 2018\Statistical Techniques in Robotics\Labs\Lab2\Online_Learning\scripts\VTK-8.1.0\VTK-bin\CMakeFiles\CMakeTmp\cmTC_4e20b.vcxproj]
+C:\Users\dhane\Desktop\MS ECE\Spring 2018\Statistical Techniques in Robotics\Labs\Lab2\Online_Learning\scripts\VTK-8.1.0\VTK-bin\CMakeFiles\CMakeTmp\src.cxx(23): error C3861: 'ftello': identifier not found [C:\Users\dhane\Desktop\MS ECE\Spring 2018\Statistical Techniques in Robotics\Labs\Lab2\Online_Learning\scripts\VTK-8.1.0\VTK-bin\CMakeFiles\CMakeTmp\cmTC_4e20b.vcxproj]
+C:\Users\dhane\Desktop\MS ECE\Spring 2018\Statistical Techniques in Robotics\Labs\Lab2\Online_Learning\scripts\VTK-8.1.0\VTK-bin\CMakeFiles\CMakeTmp\src.cxx(22): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. [C:\Users\dhane\Desktop\MS ECE\Spring 2018\Statistical Techniques in Robotics\Labs\Lab2\Online_Learning\scripts\VTK-8.1.0\VTK-bin\CMakeFiles\CMakeTmp\cmTC_4e20b.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h(207): note: see declaration of 'fopen'
+Done Building Project "C:\Users\dhane\Desktop\MS ECE\Spring 2018\Statistical Techniques in Robotics\Labs\Lab2\Online_Learning\scripts\VTK-8.1.0\VTK-bin\CMakeFiles\CMakeTmp\cmTC_4e20b.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\dhane\Desktop\MS ECE\Spring 2018\Statistical Techniques in Robotics\Labs\Lab2\Online_Learning\scripts\VTK-8.1.0\VTK-bin\CMakeFiles\CMakeTmp\cmTC_4e20b.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\Users\dhane\Desktop\MS ECE\Spring 2018\Statistical Techniques in Robotics\Labs\Lab2\Online_Learning\scripts\VTK-8.1.0\VTK-bin\CMakeFiles\CMakeTmp\src.cxx(13): warning C4293: '<<': shift count negative or too big, undefined behavior [C:\Users\dhane\Desktop\MS ECE\Spring 2018\Statistical Techniques in Robotics\Labs\Lab2\Online_Learning\scripts\VTK-8.1.0\VTK-bin\CMakeFiles\CMakeTmp\cmTC_4e20b.vcxproj]
+  C:\Users\dhane\Desktop\MS ECE\Spring 2018\Statistical Techniques in Robotics\Labs\Lab2\Online_Learning\scripts\VTK-8.1.0\VTK-bin\CMakeFiles\CMakeTmp\src.cxx(22): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. [C:\Users\dhane\Desktop\MS ECE\Spring 2018\Statistical Techniques in Robotics\Labs\Lab2\Online_Learning\scripts\VTK-8.1.0\VTK-bin\CMakeFiles\CMakeTmp\cmTC_4e20b.vcxproj]
+
+
+"C:\Users\dhane\Desktop\MS ECE\Spring 2018\Statistical Techniques in Robotics\Labs\Lab2\Online_Learning\scripts\VTK-8.1.0\VTK-bin\CMakeFiles\CMakeTmp\cmTC_4e20b.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\Users\dhane\Desktop\MS ECE\Spring 2018\Statistical Techniques in Robotics\Labs\Lab2\Online_Learning\scripts\VTK-8.1.0\VTK-bin\CMakeFiles\CMakeTmp\src.cxx(19): error C3861: 'S_ISREG': identifier not found [C:\Users\dhane\Desktop\MS ECE\Spring 2018\Statistical Techniques in Robotics\Labs\Lab2\Online_Learning\scripts\VTK-8.1.0\VTK-bin\CMakeFiles\CMakeTmp\cmTC_4e20b.vcxproj]
+  C:\Users\dhane\Desktop\MS ECE\Spring 2018\Statistical Techniques in Robotics\Labs\Lab2\Online_Learning\scripts\VTK-8.1.0\VTK-bin\CMakeFiles\CMakeTmp\src.cxx(23): error C3861: 'ftello': identifier not found [C:\Users\dhane\Desktop\MS ECE\Spring 2018\Statistical Techniques in Robotics\Labs\Lab2\Online_Learning\scripts\VTK-8.1.0\VTK-bin\CMakeFiles\CMakeTmp\cmTC_4e20b.vcxproj]
+
+    2 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:00.81
+
+Source file was:
+#define _LARGEFILE_SOURCE
+#define _LARGE_FILES
+#define _FILE_OFFSET_BITS 64
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <cassert>
+#include <cstdio>
+
+int main( int, char **argv )
+{
+  // check that off_t can hold 2^63 - 1 and perform basic operations...
+#define OFF_T_64 (((off_t) 1 << 62) - 1 + ((off_t) 1 << 62))
+  if (OFF_T_64 % 2147483647 != 1)
+    return 1;
+
+  // stat breaks on SCO OpenServer
+  struct stat buf;
+  stat( argv[0], &buf );
+  if (!S_ISREG(buf.st_mode))
+    return 2;
+
+  FILE *file = fopen( argv[0], "r" );
+  off_t offset = ftello( file );
+  fseek( file, offset, SEEK_CUR );
+  fclose( file );
+  return 0;
+}
+
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: C:/Users/dhane/Desktop/MS ECE/Spring 2018/Statistical Techniques in Robotics/Labs/Lab2/Online_Learning/scripts/VTK-8.1.0/VTK-bin/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_dd298.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.5.180.51428 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 11-03-2018 13:36:13.
+Project "C:\Users\dhane\Desktop\MS ECE\Spring 2018\Statistical Techniques in Robotics\Labs\Lab2\Online_Learning\scripts\VTK-8.1.0\VTK-bin\CMakeFiles\CMakeTmp\cmTC_dd298.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_dd298.dir\Debug\".
+  Creating directory "C:\Users\dhane\Desktop\MS ECE\Spring 2018\Statistical Techniques in Robotics\Labs\Lab2\Online_Learning\scripts\VTK-8.1.0\VTK-bin\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_dd298.dir\Debug\cmTC_dd298.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_dd298.dir\Debug\cmTC_dd298.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_dd298.dir\Debug\\" /Fd"cmTC_dd298.dir\Debug\vc141.pdb" /Gd /TC /errorReport:queue "C:\Users\dhane\Desktop\MS ECE\Spring 2018\Statistical Techniques in Robotics\Labs\Lab2\Online_Learning\scripts\VTK-8.1.0\VTK-bin\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.12.25831 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_dd298.dir\Debug\\" /Fd"cmTC_dd298.dir\Debug\vc141.pdb" /Gd /TC /errorReport:queue "C:\Users\dhane\Desktop\MS ECE\Spring 2018\Statistical Techniques in Robotics\Labs\Lab2\Online_Learning\scripts\VTK-8.1.0\VTK-bin\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  CheckIncludeFile.c
+  
+C:\Users\dhane\Desktop\MS ECE\Spring 2018\Statistical Techniques in Robotics\Labs\Lab2\Online_Learning\scripts\VTK-8.1.0\VTK-bin\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\Users\dhane\Desktop\MS ECE\Spring 2018\Statistical Techniques in Robotics\Labs\Lab2\Online_Learning\scripts\VTK-8.1.0\VTK-bin\CMakeFiles\CMakeTmp\cmTC_dd298.vcxproj]
+Done Building Project "C:\Users\dhane\Desktop\MS ECE\Spring 2018\Statistical Techniques in Robotics\Labs\Lab2\Online_Learning\scripts\VTK-8.1.0\VTK-bin\CMakeFiles\CMakeTmp\cmTC_dd298.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\dhane\Desktop\MS ECE\Spring 2018\Statistical Techniques in Robotics\Labs\Lab2\Online_Learning\scripts\VTK-8.1.0\VTK-bin\CMakeFiles\CMakeTmp\cmTC_dd298.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\Users\dhane\Desktop\MS ECE\Spring 2018\Statistical Techniques in Robotics\Labs\Lab2\Online_Learning\scripts\VTK-8.1.0\VTK-bin\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\Users\dhane\Desktop\MS ECE\Spring 2018\Statistical Techniques in Robotics\Labs\Lab2\Online_Learning\scripts\VTK-8.1.0\VTK-bin\CMakeFiles\CMakeTmp\cmTC_dd298.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.74
+
+
+Determining if the function getsockname exists in the socket failed with the following output:
+Change Dir: C:/Users/dhane/Desktop/MS ECE/Spring 2018/Statistical Techniques in Robotics/Labs/Lab2/Online_Learning/scripts/VTK-8.1.0/VTK-bin/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_85158.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.5.180.51428 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 11-03-2018 13:36:14.
+Project "C:\Users\dhane\Desktop\MS ECE\Spring 2018\Statistical Techniques in Robotics\Labs\Lab2\Online_Learning\scripts\VTK-8.1.0\VTK-bin\CMakeFiles\CMakeTmp\cmTC_85158.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_85158.dir\Debug\".
+  Creating directory "C:\Users\dhane\Desktop\MS ECE\Spring 2018\Statistical Techniques in Robotics\Labs\Lab2\Online_Learning\scripts\VTK-8.1.0\VTK-bin\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_85158.dir\Debug\cmTC_85158.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_85158.dir\Debug\cmTC_85158.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getsockname /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_85158.dir\Debug\\" /Fd"cmTC_85158.dir\Debug\vc141.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.11\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.12.25831 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getsockname /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_85158.dir\Debug\\" /Fd"cmTC_85158.dir\Debug\vc141.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.11\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\dhane\Desktop\MS ECE\Spring 2018\Statistical Techniques in Robotics\Labs\Lab2\Online_Learning\scripts\VTK-8.1.0\VTK-bin\CMakeFiles\CMakeTmp\Debug\cmTC_85158.exe" /INCREMENTAL /NOLOGO socket.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/dhane/Desktop/MS ECE/Spring 2018/Statistical Techniques in Robotics/Labs/Lab2/Online_Learning/scripts/VTK-8.1.0/VTK-bin/CMakeFiles/CMakeTmp/Debug/cmTC_85158.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/dhane/Desktop/MS ECE/Spring 2018/Statistical Techniques in Robotics/Labs/Lab2/Online_Learning/scripts/VTK-8.1.0/VTK-bin/CMakeFiles/CMakeTmp/Debug/cmTC_85158.lib" /MACHINE:X64  /machine:x64 cmTC_85158.dir\Debug\CheckFunctionExists.obj
+LINK : fatal error LNK1104: cannot open file 'socket.lib' [C:\Users\dhane\Desktop\MS ECE\Spring 2018\Statistical Techniques in Robotics\Labs\Lab2\Online_Learning\scripts\VTK-8.1.0\VTK-bin\CMakeFiles\CMakeTmp\cmTC_85158.vcxproj]
+Done Building Project "C:\Users\dhane\Desktop\MS ECE\Spring 2018\Statistical Techniques in Robotics\Labs\Lab2\Online_Learning\scripts\VTK-8.1.0\VTK-bin\CMakeFiles\CMakeTmp\cmTC_85158.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\dhane\Desktop\MS ECE\Spring 2018\Statistical Techniques in Robotics\Labs\Lab2\Online_Learning\scripts\VTK-8.1.0\VTK-bin\CMakeFiles\CMakeTmp\cmTC_85158.vcxproj" (default target) (1) ->
+(Link target) -> 
+  LINK : fatal error LNK1104: cannot open file 'socket.lib' [C:\Users\dhane\Desktop\MS ECE\Spring 2018\Statistical Techniques in Robotics\Labs\Lab2\Online_Learning\scripts\VTK-8.1.0\VTK-bin\CMakeFiles\CMakeTmp\cmTC_85158.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.82
+
+
+Determining if getsockname accepts socklen_t type  failed with the following output:
+Change Dir: C:/Users/dhane/Desktop/MS ECE/Spring 2018/Statistical Techniques in Robotics/Labs/Lab2/Online_Learning/scripts/VTK-8.1.0/VTK-bin/CMakeTmp/SocklenT/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_2dd81.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.5.180.51428 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 11-03-2018 13:36:15.
+Project "C:\Users\dhane\Desktop\MS ECE\Spring 2018\Statistical Techniques in Robotics\Labs\Lab2\Online_Learning\scripts\VTK-8.1.0\VTK-bin\CMakeTmp\SocklenT\CMakeFiles\CMakeTmp\cmTC_2dd81.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_2dd81.dir\Debug\".
+  Creating directory "C:\Users\dhane\Desktop\MS ECE\Spring 2018\Statistical Techniques in Robotics\Labs\Lab2\Online_Learning\scripts\VTK-8.1.0\VTK-bin\CMakeTmp\SocklenT\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_2dd81.dir\Debug\cmTC_2dd81.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_2dd81.dir\Debug\cmTC_2dd81.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\bin\HostX86\x64\CL.exe /c /Zi /W4 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_2dd81.dir\Debug\\" /Fd"cmTC_2dd81.dir\Debug\vc141.pdb" /Gd /TP /errorReport:queue "C:\Users\dhane\Desktop\MS ECE\Spring 2018\Statistical Techniques in Robotics\Labs\Lab2\Online_Learning\scripts\VTK-8.1.0\VTK-src\CMake\vtkTestSocklenT.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.12.25831 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W4 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_2dd81.dir\Debug\\" /Fd"cmTC_2dd81.dir\Debug\vc141.pdb" /Gd /TP /errorReport:queue "C:\Users\dhane\Desktop\MS ECE\Spring 2018\Statistical Techniques in Robotics\Labs\Lab2\Online_Learning\scripts\VTK-8.1.0\VTK-src\CMake\vtkTestSocklenT.cxx"
+  vtkTestSocklenT.cxx
+  
+C:\Users\dhane\Desktop\MS ECE\Spring 2018\Statistical Techniques in Robotics\Labs\Lab2\Online_Learning\scripts\VTK-8.1.0\VTK-src\CMake\vtkTestSocklenT.cxx(11): error C2065: 'socklen_t': undeclared identifier [C:\Users\dhane\Desktop\MS ECE\Spring 2018\Statistical Techniques in Robotics\Labs\Lab2\Online_Learning\scripts\VTK-8.1.0\VTK-bin\CMakeTmp\SocklenT\CMakeFiles\CMakeTmp\cmTC_2dd81.vcxproj]
+C:\Users\dhane\Desktop\MS ECE\Spring 2018\Statistical Techniques in Robotics\Labs\Lab2\Online_Learning\scripts\VTK-8.1.0\VTK-src\CMake\vtkTestSocklenT.cxx(11): error C2059: syntax error: ')' [C:\Users\dhane\Desktop\MS ECE\Spring 2018\Statistical Techniques in Robotics\Labs\Lab2\Online_Learning\scripts\VTK-8.1.0\VTK-bin\CMakeTmp\SocklenT\CMakeFiles\CMakeTmp\cmTC_2dd81.vcxproj]
+C:\Users\dhane\Desktop\MS ECE\Spring 2018\Statistical Techniques in Robotics\Labs\Lab2\Online_Learning\scripts\VTK-8.1.0\VTK-src\CMake\vtkTestSocklenT.cxx(12): error C2065: 'socklen_t': undeclared identifier [C:\Users\dhane\Desktop\MS ECE\Spring 2018\Statistical Techniques in Robotics\Labs\Lab2\Online_Learning\scripts\VTK-8.1.0\VTK-bin\CMakeTmp\SocklenT\CMakeFiles\CMakeTmp\cmTC_2dd81.vcxproj]
+C:\Users\dhane\Desktop\MS ECE\Spring 2018\Statistical Techniques in Robotics\Labs\Lab2\Online_Learning\scripts\VTK-8.1.0\VTK-src\CMake\vtkTestSocklenT.cxx(12): warning C4127: conditional expression is constant [C:\Users\dhane\Desktop\MS ECE\Spring 2018\Statistical Techniques in Robotics\Labs\Lab2\Online_Learning\scripts\VTK-8.1.0\VTK-bin\CMakeTmp\SocklenT\CMakeFiles\CMakeTmp\cmTC_2dd81.vcxproj]
+  C:\Users\dhane\Desktop\MS ECE\Spring 2018\Statistical Techniques in Robotics\Labs\Lab2\Online_Learning\scripts\VTK-8.1.0\VTK-src\CMake\vtkTestSocklenT.cxx(12): note: consider using 'if constexpr' statement instead
+Done Building Project "C:\Users\dhane\Desktop\MS ECE\Spring 2018\Statistical Techniques in Robotics\Labs\Lab2\Online_Learning\scripts\VTK-8.1.0\VTK-bin\CMakeTmp\SocklenT\CMakeFiles\CMakeTmp\cmTC_2dd81.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\dhane\Desktop\MS ECE\Spring 2018\Statistical Techniques in Robotics\Labs\Lab2\Online_Learning\scripts\VTK-8.1.0\VTK-bin\CMakeTmp\SocklenT\CMakeFiles\CMakeTmp\cmTC_2dd81.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\Users\dhane\Desktop\MS ECE\Spring 2018\Statistical Techniques in Robotics\Labs\Lab2\Online_Learning\scripts\VTK-8.1.0\VTK-src\CMake\vtkTestSocklenT.cxx(12): warning C4127: conditional expression is constant [C:\Users\dhane\Desktop\MS ECE\Spring 2018\Statistical Techniques in Robotics\Labs\Lab2\Online_Learning\scripts\VTK-8.1.0\VTK-bin\CMakeTmp\SocklenT\CMakeFiles\CMakeTmp\cmTC_2dd81.vcxproj]
+
+
+"C:\Users\dhane\Desktop\MS ECE\Spring 2018\Statistical Techniques in Robotics\Labs\Lab2\Online_Learning\scripts\VTK-8.1.0\VTK-bin\CMakeTmp\SocklenT\CMakeFiles\CMakeTmp\cmTC_2dd81.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\Users\dhane\Desktop\MS ECE\Spring 2018\Statistical Techniques in Robotics\Labs\Lab2\Online_Learning\scripts\VTK-8.1.0\VTK-src\CMake\vtkTestSocklenT.cxx(11): error C2065: 'socklen_t': undeclared identifier [C:\Users\dhane\Desktop\MS ECE\Spring 2018\Statistical Techniques in Robotics\Labs\Lab2\Online_Learning\scripts\VTK-8.1.0\VTK-bin\CMakeTmp\SocklenT\CMakeFiles\CMakeTmp\cmTC_2dd81.vcxproj]
+  C:\Users\dhane\Desktop\MS ECE\Spring 2018\Statistical Techniques in Robotics\Labs\Lab2\Online_Learning\scripts\VTK-8.1.0\VTK-src\CMake\vtkTestSocklenT.cxx(11): error C2059: syntax error: ')' [C:\Users\dhane\Desktop\MS ECE\Spring 2018\Statistical Techniques in Robotics\Labs\Lab2\Online_Learning\scripts\VTK-8.1.0\VTK-bin\CMakeTmp\SocklenT\CMakeFiles\CMakeTmp\cmTC_2dd81.vcxproj]
+  C:\Users\dhane\Desktop\MS ECE\Spring 2018\Statistical Techniques in Robotics\Labs\Lab2\Online_Learning\scripts\VTK-8.1.0\VTK-src\CMake\vtkTestSocklenT.cxx(12): error C2065: 'socklen_t': undeclared identifier [C:\Users\dhane\Desktop\MS ECE\Spring 2018\Statistical Techniques in Robotics\Labs\Lab2\Online_Learning\scripts\VTK-8.1.0\VTK-bin\CMakeTmp\SocklenT\CMakeFiles\CMakeTmp\cmTC_2dd81.vcxproj]
+
+    1 Warning(s)
+    3 Error(s)
+
+Time Elapsed 00:00:00.74
+
+Determining if the SO_REUSEADDR exist failed with the following output:
+Change Dir: C:/Users/dhane/Desktop/MS ECE/Spring 2018/Statistical Techniques in Robotics/Labs/Lab2/Online_Learning/scripts/VTK-8.1.0/VTK-bin/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_4c2ac.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.5.180.51428 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 11-03-2018 13:36:16.
+Project "C:\Users\dhane\Desktop\MS ECE\Spring 2018\Statistical Techniques in Robotics\Labs\Lab2\Online_Learning\scripts\VTK-8.1.0\VTK-bin\CMakeFiles\CMakeTmp\cmTC_4c2ac.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_4c2ac.dir\Debug\".
+  Creating directory "C:\Users\dhane\Desktop\MS ECE\Spring 2018\Statistical Techniques in Robotics\Labs\Lab2\Online_Learning\scripts\VTK-8.1.0\VTK-bin\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_4c2ac.dir\Debug\cmTC_4c2ac.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_4c2ac.dir\Debug\cmTC_4c2ac.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4c2ac.dir\Debug\\" /Fd"cmTC_4c2ac.dir\Debug\vc141.pdb" /Gd /TC /errorReport:queue "C:\Users\dhane\Desktop\MS ECE\Spring 2018\Statistical Techniques in Robotics\Labs\Lab2\Online_Learning\scripts\VTK-8.1.0\VTK-bin\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.12.25831 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4c2ac.dir\Debug\\" /Fd"cmTC_4c2ac.dir\Debug\vc141.pdb" /Gd /TC /errorReport:queue "C:\Users\dhane\Desktop\MS ECE\Spring 2018\Statistical Techniques in Robotics\Labs\Lab2\Online_Learning\scripts\VTK-8.1.0\VTK-bin\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  CheckSymbolExists.c
+  
+C:\Users\dhane\Desktop\MS ECE\Spring 2018\Statistical Techniques in Robotics\Labs\Lab2\Online_Learning\scripts\VTK-8.1.0\VTK-bin\CMakeFiles\CMakeTmp\CheckSymbolExists.c(3): fatal error C1083: Cannot open include file: 'sys/socket.h': No such file or directory [C:\Users\dhane\Desktop\MS ECE\Spring 2018\Statistical Techniques in Robotics\Labs\Lab2\Online_Learning\scripts\VTK-8.1.0\VTK-bin\CMakeFiles\CMakeTmp\cmTC_4c2ac.vcxproj]
+Done Building Project "C:\Users\dhane\Desktop\MS ECE\Spring 2018\Statistical Techniques in Robotics\Labs\Lab2\Online_Learning\scripts\VTK-8.1.0\VTK-bin\CMakeFiles\CMakeTmp\cmTC_4c2ac.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\dhane\Desktop\MS ECE\Spring 2018\Statistical Techniques in Robotics\Labs\Lab2\Online_Learning\scripts\VTK-8.1.0\VTK-bin\CMakeFiles\CMakeTmp\cmTC_4c2ac.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\Users\dhane\Desktop\MS ECE\Spring 2018\Statistical Techniques in Robotics\Labs\Lab2\Online_Learning\scripts\VTK-8.1.0\VTK-bin\CMakeFiles\CMakeTmp\CheckSymbolExists.c(3): fatal error C1083: Cannot open include file: 'sys/socket.h': No such file or directory [C:\Users\dhane\Desktop\MS ECE\Spring 2018\Statistical Techniques in Robotics\Labs\Lab2\Online_Learning\scripts\VTK-8.1.0\VTK-bin\CMakeFiles\CMakeTmp\cmTC_4c2ac.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.64
+
+File C:/Users/dhane/Desktop/MS ECE/Spring 2018/Statistical Techniques in Robotics/Labs/Lab2/Online_Learning/scripts/VTK-8.1.0/VTK-bin/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <sys/socket.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef SO_REUSEADDR
+  return ((int*)(&SO_REUSEADDR))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
